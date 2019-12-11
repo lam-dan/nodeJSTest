@@ -1,6 +1,6 @@
 # nodeJSTest
 
-As part of another job application, I was given a JavaScript coding exam on data manipulation, data structures, and sorting.
+As part of a job application, I was given a JavaScript coding exam on data manipulation, data structures, and sorting.
 
 ## Step 1
 Write a node script that takes data like this:
