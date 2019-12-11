@@ -5,14 +5,18 @@ As part of another job application, I was given a JavaScript coding exam on data
 ## Step 1
 Write a node script that takes data like this:
 
-`const input = 'store_one,orange,3\n'
+```
+const input = 'store_one,orange,3\n'
             + 'store_one,kiwi,5\n'
             + 'store_one,orange,1\n'
             + 'store_two,orange,1\n';`
             
 and transforms it into a nested data structure:
 
-`{"store_one": {"orange": 4,  // Note that two separate rows
+```
+{
+    "store_one": {
+        "orange": 4,  // Note that two separate rows
                       // from the input had their values added: 3 + 1.
         "kiwi": 5
     },
