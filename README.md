@@ -60,6 +60,9 @@ Generate a list of all fruit names, sorted by these criteria: 1. If a fruit has 
 To do this, use ‹a›.localeCompare(‹b›) which returns: - a negative value when ‹a› comes before ‹b› - zero when they’re the same - a positive value when ‹a› comes after ‹b›
 
 You may want to use Object.keys here.
+```
+['kiwi',    // 1/5 remain, so 4/5 were sold.
+ 'orange']  // 2/5 remain, so 3/5 were sold.
+ ``` 
 
-['kiwi',   // 1/5 remain, so 4/5 were sold.
- 'orange'] // 2/5 remain, so 3/5 were sold.
+
