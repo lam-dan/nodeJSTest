@@ -12,16 +12,14 @@ Write a node script that takes data like this:
             
 and transforms it into a nested data structure:
 
-`{
-    "store_one": {
-        "orange": 4,  // Note that two separate rows
+`{"store_one": {"orange": 4,  // Note that two separate rows
                       // from the input had their values added: 3 + 1.
         "kiwi": 5
     },
     "store_two": {
         "orange": 1
     }
-}`
+}
 
 You can assume that each row contains exactly two commas and the last value can be parsed as an int. Use ‹string›.split(‹delimiter›).
 
