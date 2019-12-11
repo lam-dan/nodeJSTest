@@ -10,9 +10,8 @@ const input = 'store_one,orange,3\n'
             + 'store_one,kiwi,5\n'
             + 'store_one,orange,1\n'
             + 'store_two,orange,1\n';`
-            
+```
 and transforms it into a nested data structure:
-
 ```
 {
     "store_one": {
@@ -24,18 +23,19 @@ and transforms it into a nested data structure:
         "orange": 1
     }
 }
-
+```
 You can assume that each row contains exactly two commas and the last value can be parsed as an int. Use ‹string›.split(‹delimiter›).
 
 ## Step 2
 You’re now interested in how many of a certain fruit are available in the city.
 
 Write an expression that transforms the data structure above into a data structure like:
-
+```
 {
     "orange": 5,
     "kiwi": 5
 }
+```
 …where the numbers are the total counts among all stores.
 
 Please write this as an expression that uses .reduce at least once, and that contains no for loops.
@@ -46,9 +46,10 @@ You may want to use Object.values here.
 
 ## Step 3
 Some time has passed and you now receive a new count of fruits:
-
+```
 const input2 = 'store_one,orange,2\n'
              + 'store_one,kiwi,1\n';
+```
 ## Step 3.1
 Calculate out how many fruits got sold in total:
 
